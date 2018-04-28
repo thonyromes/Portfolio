@@ -35,7 +35,7 @@ h1 {
 
 .logo,
 .copy {
-    widows: 100%;
+    width: 100%;
     height: auto;
     padding: 1%;
     text-align: center;
