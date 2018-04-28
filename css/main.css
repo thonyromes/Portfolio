@@ -1,0 +1,147 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: rgb(24, 24, 24) url("../img/darknoise.png") repeat;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100%;
+}
+
+#header,
+#footer {
+    width: 100%;
+    height: 15vh;
+    padding: 1%;
+}
+
+.logo,
+.copy {
+    widows: 100%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.logo h1 {
+    font-size: 2.25em;
+    text-shadow: 2px 2px rgba(180, 178, 178, 0.75);
+}
+
+#section {
+    width: 100%;
+    height: auto;
+}
+
+.article {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.img1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.img1 img {
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 2px 6px 12px rgba(255, 255, 255, 0.25);
+}
+
+.nam {
+    text-shadow: 2px 2px 3px rgba(167, 166, 166, 0.75);
+}
+
+.bg {
+    color: rgb(225, 225, 245);
+}
+
+.items {
+    box-shadow: 0px 1px 3px rgba(255, 255, 255, 0.12), 0px 1px 2px rgba(255, 255, 255, 0.24);
+    margin: 0;
+    padding: 2% 0;
+}
+
+.items:last-of-type {
+    box-shadow: none;
+}
+
+.langs,
+.socials {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.langs li {
+    padding: 0;
+    margin: 1% 0;
+    display: inline-block;
+    padding: 2% 4%;
+    background-color: #333;
+}
+
+.socials li {
+    padding: 0;
+    margin: 0;
+    width: 6%;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: transparent;
+}
+
+.Capa_1 {
+    width: 100%;
+}
+
+.copy {
+    border-bottom: none;
+    border-top: 1px dotted whitesmoke;
+    padding-top: 2%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    span,
+    li,
+    a {
+        font-size: 0.75em;
+    }
+    .img1 {
+        width: 30%;
+    }
+    .socials li {
+        width: 10%;
+    }
+}
